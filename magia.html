@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O mnie</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 48px;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 24px;
+            color: #aaa;
+        }
+
+        .animated-text {
+            font-size: 36px;
+            color: #fff;
+            font-weight: bold;
+            opacity: 0;
+            animation: fadeInOut 3s infinite;
+            animation-delay: 4s;
+        }
+
+        @keyframes fadeInOut {
+            0% { opacity: 0; }
+            50% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>O mnie</h1>
+        <p>Cześć! Jestem osobą, która ceni sobie autentyczność i szczerość. Oto krótka informacja o mnie.</p>
+        <div class="animated-text">Jestem gejem</div>
+    </div>
+
+</body>
+</html>
